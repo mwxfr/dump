@@ -1,0 +1,12 @@
+source : top
+release build metadata : NSS 3.29.5, NSPR 4.13.1
+description : Fx55.0a1 nightly vs Fx53.0.2 release
+branch : Nightly
+test build url : https://download.mozilla.org/?product=firefox-nightly-latest&os=linux64&lang=en-US
+test build metadata : NSS 3.31 Beta, NSPR 4.15 Beta
+timestamp : 2017-05-15-11-09-01
+Total time : 107 minutes
+release build url : https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US
+++++++++++
+
+155010,cl.jobrapido.com {"cert_info": {"rootCertificateOrganizationalUnit": "www.digicert.com", "isEV": "False", "subjectAltName": "*.jobrapido.com,jobrapido.com", "validityNotBefore": "March 4, 2016, 12:00:00 AM GMT", "commonName": "*.jobrapido.com", "subjectName": "CN=*.jobrapido.com,O=Jobrapido s.r.l.,L=Milan,ST=MI,C=IT", "chainLength": 3, "keyUsage": "Signing,Key Encipherment", "rootCertificateSHA1Fingerprint": "A8:98:5D:3A:65:E5:E5:C4:B2:D7:D6:6D:40:C6:DD:2F:B1:9C:54:36", "issuerCommonName": "DigiCert SHA2 Secure Server CA", "sha1Fingerprint": "77:85:E6:C3:E3:FF:47:8C:6C:C1:79:A9:26:79:67:A2:BD:77:65:56", "sha256Fingerprint": "80:5D:BC:BC:06:50:24:5F:4A:6C:7D:4E:08:F0:AC:85:56:22:A0:53:F4:39:21:D4:3B:D9:15:C1:F4:90:D8:2A", "extKeyUsage": "serverAuth,clientAuth", "certifiedUsages": null, "organization": "Jobrapido s.r.l.", "nickname": "(no nickname)", "validityNotAfter": "March 21, 2017, 12:00:00 PM GMT", "organizationalUnit": "", "rootCertificateSubjectName": "CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US", "issuerOrganization": "DigiCert Inc", "emailAddress": "(no email address)", "rootCertificateOrganization": "DigiCert Inc", "signatureAlgorithm": "sha256"}, "site_info": {"timestamp": 1494852954590, "rank": 155010, "uri": "cl.jobrapido.com", "connectionSpeed": 2260}, "error": {"message": "SEC_ERROR_EXPIRED_CERTIFICATE", "code": "0x805a1ff5", "type": "certificate"}}
