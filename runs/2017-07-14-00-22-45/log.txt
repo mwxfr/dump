@@ -1,0 +1,13 @@
+test build url : None
+description : Fx56.0a1 nightly vs Fx54.0.1 release
+Total time : 31 minutes
+test build metadata : NSS 3.32 Beta, NSPR 4.16 Beta
+timestamp : 2017-07-14-00-22-45
+release build url : None
+source : top
+mode : regression
+branch : Nightly
+release build metadata : NSS 3.30.2, NSPR 4.14
+++++++++++
+
+678,rtb0.doubleverify.com {"cert_info": {"rootCertificateOrganizationalUnit": "TechOps", "isEV": "False", "subjectAltName": "*.doubleverify.com", "validityNotBefore": "October 13, 2014, 12:00:00 AM GMT", "commonName": "*.doubleverify.com", "subjectName": "CN=*.doubleverify.com,OU=TechOps,O=DoubleVerify Inc,L=New York,ST=New York,C=US", "chainLength": 1, "keyUsage": "Signing,Key Encipherment", "rootCertificateSHA1Fingerprint": "93:42:C1:01:E9:C1:C8:3E:9E:86:A6:27:6A:99:93:12:D4:9F:41:F8", "issuerCommonName": "Symantec Class 3 Secure Server CA - G4", "sha1Fingerprint": "93:42:C1:01:E9:C1:C8:3E:9E:86:A6:27:6A:99:93:12:D4:9F:41:F8", "sha256Fingerprint": "A9:6F:0E:99:F8:7F:11:C7:B0:15:B9:0B:84:4F:F9:49:6B:D3:CE:F1:F3:11:E8:3D:61:96:FB:D8:4C:B7:41:56", "extKeyUsage": "serverAuth,clientAuth", "certifiedUsages": null, "organization": "DoubleVerify Inc", "nickname": "(no nickname)", "validityNotAfter": "January 20, 2018, 11:59:59 PM GMT", "organizationalUnit": "TechOps", "rootCertificateSubjectName": "CN=*.doubleverify.com,OU=TechOps,O=DoubleVerify Inc,L=New York,ST=New York,C=US", "issuerOrganization": "Symantec Corporation", "emailAddress": "(no email address)", "rootCertificateOrganization": "DoubleVerify Inc", "signatureAlgorithm": "sha256"}, "site_info": {"timestamp": 1499993606555, "rank": 678, "uri": "rtb0.doubleverify.com", "connectionSpeed": 1102}, "error": {"message": "PR_CONNECT_RESET_ERROR", "code": "0x804b0014", "type": "network"}}

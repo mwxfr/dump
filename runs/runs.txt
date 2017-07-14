@@ -1,0 +1,2 @@
+{"errors": 2, "run": "2017-07-14-00-22-45", "description": "Fx56.0a1 nightly vs Fx54.0.1 release", "branch": "Nightly"}
+{"errors": 0, "run": "2017-07-14-00-58-03", "description": "Fx56.0a1 nightly vs Fx54.0.1 release", "branch": "Nightly"}
