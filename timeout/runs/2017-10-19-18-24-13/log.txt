@@ -1,0 +1,13 @@
+test build url : None
+description : Fx58.0a1 nightly vs Fx58.0a1 nightly
+Total time : 632 minutes
+test build metadata : NSS 3.34 Beta, NSPR 4.17
+timestamp : 2017-10-19-18-24-13
+release build url : None
+source : top
+mode : regression
+branch : Nightly
+release build metadata : NSS 3.34 Beta, NSPR 4.17
+++++++++++
+
+40156,chegg.com {"cert_info": {"rootCertificateOrganizationalUnit": "", "isEV": "False", "subjectAltName": "*.chegg.com,chegg.com", "validityNotBefore": "April 10, 2014, 12:00:00 AM GMT", "commonName": "*.chegg.com", "subjectName": "CN=*.chegg.com,OU=IT Operations,O=\"Chegg, Inc.\",L=Santa Clara,ST=California,C=US", "chainLength": 3, "keyUsage": "Signing,Key Encipherment", "rootCertificateSHA1Fingerprint": "DE:28:F4:A4:FF:E5:B9:2F:A3:C5:03:D1:A3:49:A7:F9:96:2A:82:12", "issuerCommonName": "GeoTrust SSL CA - G2", "sha1Fingerprint": "53:14:A3:7F:CC:75:6E:1B:38:3A:D6:01:71:2A:37:C9:14:E6:BB:E8", "sha256Fingerprint": "11:91:50:2E:E5:CC:78:E3:CD:AB:E0:C5:01:68:A4:CA:05:D1:90:31:55:F6:2A:FF:0C:4E:93:47:B1:38:3B:38", "extKeyUsage": "serverAuth,clientAuth", "certifiedUsages": null, "organization": "Chegg, Inc.", "nickname": "(no nickname)", "validityNotAfter": "April 9, 2017, 11:59:59 PM GMT", "organizationalUnit": "IT Operations", "rootCertificateSubjectName": "CN=GeoTrust Global CA,O=GeoTrust Inc.,C=US", "issuerOrganization": "GeoTrust Inc.", "emailAddress": "(no email address)", "rootCertificateOrganization": "GeoTrust Inc.", "signatureAlgorithm": "sha1"}, "site_info": {"timestamp": 1508439541861, "rank": 40156, "uri": "chegg.com", "connectionSpeed": 548}, "error": {"message": "SEC_ERROR_EXPIRED_CERTIFICATE", "code": "0x805a1ff5", "type": "certificate"}}

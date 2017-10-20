@@ -1,0 +1,1 @@
+{"errors": 1, "run": "2017-10-19-18-24-13", "description": "Fx58.0a1 nightly vs Fx58.0a1 nightly", "branch": "Nightly"}
