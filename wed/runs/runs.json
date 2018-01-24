@@ -1,0 +1,12 @@
+[
+    {
+        "data": [
+            {
+                "branch": "Nightly", 
+                "description": "Fx60.0a1 nightly vs Fx60.0a1 nightly", 
+                "errors": 5, 
+                "run": "2018-01-24-05-50-23"
+            }
+        ]
+    }
+]
