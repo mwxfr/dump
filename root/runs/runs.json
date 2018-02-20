@@ -1,0 +1,12 @@
+[
+    {
+        "data": [
+            {
+                "branch": "Default", 
+                "description": "Fx60.0a1 default vs Fx59.0b10 beta", 
+                "errors": 4, 
+                "run": "2018-02-19-17-45-39"
+            }
+        ]
+    }
+]
