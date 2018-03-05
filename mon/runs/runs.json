@@ -1,0 +1,12 @@
+[
+    {
+        "data": [
+            {
+                "branch": "Nightly", 
+                "description": "Fx60.0a1 nightly vs Fx58.0.2 release", 
+                "errors": 181, 
+                "run": "2018-03-05-14-50-39"
+            }
+        ]
+    }
+]
