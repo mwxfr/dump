@@ -6,6 +6,12 @@
                 "description": "Fx61.0a1 nightly vs Fx59.0 release", 
                 "errors": 87, 
                 "run": "2018-03-15-20-40-14"
+            }, 
+            {
+                "branch": "Nightly", 
+                "description": "Fx61.0a1 nightly vs Fx61.0a1 nightly", 
+                "errors": 86, 
+                "run": "2018-03-16-01-05-40"
             }
         ]
     }
