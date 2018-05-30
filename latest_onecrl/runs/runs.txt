@@ -1,1 +1,0 @@
-{"errors": 24, "run": "2017-09-11-17-13-47", "description": "Fx57.0a1 nightly vs Fx57.0a1 nightly", "branch": "Nightly"}

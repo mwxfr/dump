@@ -1,1 +1,0 @@
-{"errors": 965, "run": "2017-08-15-21-17-48", "description": "Fx57.0a1 nightly vs Fx55.0.1 release", "branch": "Nightly"}
