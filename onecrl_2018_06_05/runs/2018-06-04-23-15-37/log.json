@@ -1,0 +1,1287 @@
+[
+    {
+        "data": [
+            {
+                "host": "beymen.com", 
+                "rank": 398183, 
+                "response": {
+                    "command_time": 1528163346372, 
+                    "id": 3363184994797189000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "beymen.com", 
+                            "include_certificates": false, 
+                            "rank": 398183, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1528163346890, 
+                    "result": {
+                        "info": {
+                            "certified_usages": null, 
+                            "error_class": 2, 
+                            "original_uri": "https://beymen.com/", 
+                            "raw_error": "805a2ff4", 
+                            "security_info_status": true, 
+                            "security_state": 4, 
+                            "short_error_message": "SSL_ERROR_BAD_CERT_DOMAIN", 
+                            "ssl_status": {
+                                "CERTIFICATE_TRANSPARENCY_NOT_APPLICABLE": 0, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_COMPLIANT": 5, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_DIVERSE_SCTS": 7, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_ENOUGH_SCTS": 6, 
+                                "SSL_VERSION_3": 0, 
+                                "TLS_VERSION_1": 1, 
+                                "TLS_VERSION_1_1": 2, 
+                                "TLS_VERSION_1_2": 3, 
+                                "TLS_VERSION_1_3": 4, 
+                                "certificateTransparencyStatus": 0, 
+                                "cipherName": null, 
+                                "failedCertChain": {}, 
+                                "isDomainMismatch": true, 
+                                "isExtendedValidation": false, 
+                                "isNotValidAtThisTime": false, 
+                                "isUntrusted": false, 
+                                "keaGroupName": null, 
+                                "keyLength": null, 
+                                "protocolVersion": null, 
+                                "secretKeyLength": null, 
+                                "serverCert": {
+                                    "ANY_CERT": 65535, 
+                                    "ASN1Structure": {
+                                        "ASN1_APPLICATION": 33, 
+                                        "ASN1_BIT_STRING": 3, 
+                                        "ASN1_BMP_STRING": 30, 
+                                        "ASN1_BOOLEAN": 1, 
+                                        "ASN1_CONTEXT_SPECIFIC": 32, 
+                                        "ASN1_END_CONTENTS": 0, 
+                                        "ASN1_ENUMERATED": 10, 
+                                        "ASN1_GEN_TIME": 24, 
+                                        "ASN1_HIGH_TAG_NUMBER": 31, 
+                                        "ASN1_IA5_STRING": 22, 
+                                        "ASN1_INTEGER": 2, 
+                                        "ASN1_NULL": 5, 
+                                        "ASN1_OBJECT_ID": 6, 
+                                        "ASN1_OCTET_STRING": 4, 
+                                        "ASN1_PRINTABLE_STRING": 19, 
+                                        "ASN1_PRIVATE": 34, 
+                                        "ASN1_SEQUENCE": 16, 
+                                        "ASN1_SET": 17, 
+                                        "ASN1_T61_STRING": 20, 
+                                        "ASN1_UNIVERSAL_STRING": 28, 
+                                        "ASN1_UTC_TIME": 23, 
+                                        "ASN1_UTF8_STRING": 12, 
+                                        "ASN1_VISIBLE_STRING": 26, 
+                                        "displayName": "*.azurewebsites.net", 
+                                        "displayValue": "", 
+                                        "tag": 0, 
+                                        "type": 0
+                                    }, 
+                                    "CA_CERT": 1, 
+                                    "EMAIL_CERT": 4, 
+                                    "SERVER_CERT": 8, 
+                                    "UNKNOWN_CERT": 0, 
+                                    "USER_CERT": 2, 
+                                    "certType": 0, 
+                                    "commonName": "*.azurewebsites.net", 
+                                    "dbKey": "AAAAAAAAAAAAAAATAAAAjhYAAHCNcKKky2OroccAAAAAcI0wgYsxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRAwDgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xFTATBgNVBAsTDE1pY3Jvc29mdCBJVDEeMBwGA1UEAxMVTWljcm9zb2Z0IElUIFRMUyBDQSA0", 
+                                    "displayName": "*.azurewebsites.net", 
+                                    "emailAddress": "(no email address)", 
+                                    "isBuiltInRoot": false, 
+                                    "isSelfSigned": false, 
+                                    "issuerCommonName": "Microsoft IT TLS CA 4", 
+                                    "issuerName": "CN=Microsoft IT TLS CA 4,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US", 
+                                    "issuerOrganization": "Microsoft Corporation", 
+                                    "issuerOrganizationUnit": "Microsoft IT", 
+                                    "keyUsages": "Signing,Key Encipherment,Data Encipherment", 
+                                    "organization": "", 
+                                    "organizationalUnit": "", 
+                                    "serialNumber": "16:00:00:70:8D:70:A2:A4:CB:63:AB:A1:C7:00:00:00:00:70:8D", 
+                                    "sha1Fingerprint": "3A:B0:B1:C2:7F:74:6F:D9:0C:34:F0:D6:A9:60:CF:73:A4:22:9D:E8", 
+                                    "sha256Fingerprint": "52:E4:38:3C:96:1A:E9:B8:4D:F0:F4:31:4E:15:3E:C7:16:7F:5E:9B:CE:E7:AD:42:EF:5E:4E:9B:36:79:99:0C", 
+                                    "sha256SubjectPublicKeyInfoDigest": "OtGR7ixvqZTxaH6c5Vpeje4IUMgdfqgYdIq5ZykUcgc=", 
+                                    "subjectAltNames": "*.azurewebsites.net,*.scm.azurewebsites.net,*.azure-mobile.net,*.scm.azure-mobile.net,*.sso.azurewebsites.net", 
+                                    "subjectName": "CN=*.azurewebsites.net", 
+                                    "tokenName": "Software Security Device", 
+                                    "validity": {
+                                        "notAfter": 1576586447000000, 
+                                        "notAfterGMT": "December 17, 2019, 12:40:47 PM GMT", 
+                                        "notAfterLocalDay": "December 17, 2019", 
+                                        "notAfterLocalTime": "December 17, 2019, 12:40:47 PM GMT", 
+                                        "notBefore": 1513514447000000, 
+                                        "notBeforeGMT": "December 17, 2017, 12:40:47 PM GMT", 
+                                        "notBeforeLocalDay": "December 17, 2017", 
+                                        "notBeforeLocalTime": "December 17, 2017, 12:40:47 PM GMT"
+                                    }
+                                }, 
+                                "signatureSchemeName": null, 
+                                "succeededCertChain": null
+                            }, 
+                            "ssl_status_errors": [
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.cipherName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.secretKeyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keaGroupName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.signatureSchemeName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.protocolVersion]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }
+                            ], 
+                            "ssl_status_status": true, 
+                            "status": 2153394164, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://beymen.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4940595616258236000
+                }, 
+                "success": false
+            }, 
+            {
+                "host": "static.livesport.ws", 
+                "rank": 439228, 
+                "response": {
+                    "command_time": 1528164331115, 
+                    "id": 14969447166643560000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "static.livesport.ws", 
+                            "include_certificates": false, 
+                            "rank": 439228, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1528164331633, 
+                    "result": {
+                        "info": {
+                            "certified_usages": null, 
+                            "error_class": 2, 
+                            "original_uri": "https://static.livesport.ws/", 
+                            "raw_error": "805a1ff5", 
+                            "security_info_status": true, 
+                            "security_state": 4, 
+                            "short_error_message": "SEC_ERROR_EXPIRED_CERTIFICATE", 
+                            "ssl_status": {
+                                "CERTIFICATE_TRANSPARENCY_NOT_APPLICABLE": 0, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_COMPLIANT": 5, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_DIVERSE_SCTS": 7, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_ENOUGH_SCTS": 6, 
+                                "SSL_VERSION_3": 0, 
+                                "TLS_VERSION_1": 1, 
+                                "TLS_VERSION_1_1": 2, 
+                                "TLS_VERSION_1_2": 3, 
+                                "TLS_VERSION_1_3": 4, 
+                                "certificateTransparencyStatus": 0, 
+                                "cipherName": null, 
+                                "failedCertChain": {}, 
+                                "isDomainMismatch": false, 
+                                "isExtendedValidation": false, 
+                                "isNotValidAtThisTime": true, 
+                                "isUntrusted": false, 
+                                "keaGroupName": null, 
+                                "keyLength": null, 
+                                "protocolVersion": null, 
+                                "secretKeyLength": null, 
+                                "serverCert": {
+                                    "ANY_CERT": 65535, 
+                                    "ASN1Structure": {
+                                        "ASN1_APPLICATION": 33, 
+                                        "ASN1_BIT_STRING": 3, 
+                                        "ASN1_BMP_STRING": 30, 
+                                        "ASN1_BOOLEAN": 1, 
+                                        "ASN1_CONTEXT_SPECIFIC": 32, 
+                                        "ASN1_END_CONTENTS": 0, 
+                                        "ASN1_ENUMERATED": 10, 
+                                        "ASN1_GEN_TIME": 24, 
+                                        "ASN1_HIGH_TAG_NUMBER": 31, 
+                                        "ASN1_IA5_STRING": 22, 
+                                        "ASN1_INTEGER": 2, 
+                                        "ASN1_NULL": 5, 
+                                        "ASN1_OBJECT_ID": 6, 
+                                        "ASN1_OCTET_STRING": 4, 
+                                        "ASN1_PRINTABLE_STRING": 19, 
+                                        "ASN1_PRIVATE": 34, 
+                                        "ASN1_SEQUENCE": 16, 
+                                        "ASN1_SET": 17, 
+                                        "ASN1_T61_STRING": 20, 
+                                        "ASN1_UNIVERSAL_STRING": 28, 
+                                        "ASN1_UTC_TIME": 23, 
+                                        "ASN1_UTF8_STRING": 12, 
+                                        "ASN1_VISIBLE_STRING": 26, 
+                                        "displayName": "static.livesport.ws", 
+                                        "displayValue": "", 
+                                        "tag": 0, 
+                                        "type": 0
+                                    }, 
+                                    "CA_CERT": 1, 
+                                    "EMAIL_CERT": 4, 
+                                    "SERVER_CERT": 8, 
+                                    "UNKNOWN_CERT": 0, 
+                                    "USER_CERT": 2, 
+                                    "certType": 0, 
+                                    "commonName": "static.livesport.ws", 
+                                    "dbKey": "AAAAAAAAAAAAAAASAAAATARb77x4YWpNdJyKdF9Hc0XBszBKMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDEjMCEGA1UEAxMaTGV0J3MgRW5jcnlwdCBBdXRob3JpdHkgWDM=", 
+                                    "displayName": "static.livesport.ws", 
+                                    "emailAddress": "(no email address)", 
+                                    "isBuiltInRoot": false, 
+                                    "isSelfSigned": false, 
+                                    "issuerCommonName": "Let's Encrypt Authority X3", 
+                                    "issuerName": "CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US", 
+                                    "issuerOrganization": "Let's Encrypt", 
+                                    "issuerOrganizationUnit": "", 
+                                    "keyUsages": "Signing,Key Encipherment", 
+                                    "organization": "", 
+                                    "organizationalUnit": "", 
+                                    "serialNumber": "04:5B:EF:BC:78:61:6A:4D:74:9C:8A:74:5F:47:73:45:C1:B3", 
+                                    "sha1Fingerprint": "BA:1A:44:D1:60:B6:EE:91:81:09:8D:DF:4E:36:6F:8B:00:1D:30:FE", 
+                                    "sha256Fingerprint": "6F:3F:C5:8A:48:0A:5F:27:C1:3D:D3:78:36:2C:04:FB:32:58:EC:FA:D1:EE:A5:F0:03:93:50:72:50:89:7B:5C", 
+                                    "sha256SubjectPublicKeyInfoDigest": "mEY6r6CIxL6fnO/quLVi315VOqCCViYXN+WiJpb4py4=", 
+                                    "subjectAltNames": "st1.livesport.ws,static.livesport.ws", 
+                                    "subjectName": "CN=static.livesport.ws", 
+                                    "tokenName": "Software Security Device", 
+                                    "validity": {
+                                        "notAfter": 1528135144000000, 
+                                        "notAfterGMT": "June 4, 2018, 5:59:04 PM GMT", 
+                                        "notAfterLocalDay": "June 4, 2018", 
+                                        "notAfterLocalTime": "June 4, 2018, 5:59:04 PM GMT", 
+                                        "notBefore": 1520359144000000, 
+                                        "notBeforeGMT": "March 6, 2018, 5:59:04 PM GMT", 
+                                        "notBeforeLocalDay": "March 6, 2018", 
+                                        "notBeforeLocalTime": "March 6, 2018, 5:59:04 PM GMT"
+                                    }
+                                }, 
+                                "signatureSchemeName": null, 
+                                "succeededCertChain": null
+                            }, 
+                            "ssl_status_errors": [
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.cipherName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.secretKeyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keaGroupName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.signatureSchemeName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.protocolVersion]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }
+                            ], 
+                            "ssl_status_status": true, 
+                            "status": 2153390069, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://static.livesport.ws/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 9498162965487014000
+                }, 
+                "success": false
+            }, 
+            {
+                "host": "cornelliron.com", 
+                "rank": 491823, 
+                "response": {
+                    "command_time": 1528165740458, 
+                    "id": 1181488837316372500, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "cornelliron.com", 
+                            "include_certificates": false, 
+                            "rank": 491823, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1528165740875, 
+                    "result": {
+                        "info": {
+                            "certified_usages": null, 
+                            "error_class": 2, 
+                            "original_uri": "https://cornelliron.com/", 
+                            "raw_error": "805a2ff4", 
+                            "security_info_status": true, 
+                            "security_state": 4, 
+                            "short_error_message": "SSL_ERROR_BAD_CERT_DOMAIN", 
+                            "ssl_status": {
+                                "CERTIFICATE_TRANSPARENCY_NOT_APPLICABLE": 0, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_COMPLIANT": 5, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_DIVERSE_SCTS": 7, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_ENOUGH_SCTS": 6, 
+                                "SSL_VERSION_3": 0, 
+                                "TLS_VERSION_1": 1, 
+                                "TLS_VERSION_1_1": 2, 
+                                "TLS_VERSION_1_2": 3, 
+                                "TLS_VERSION_1_3": 4, 
+                                "certificateTransparencyStatus": 0, 
+                                "cipherName": null, 
+                                "failedCertChain": {}, 
+                                "isDomainMismatch": true, 
+                                "isExtendedValidation": false, 
+                                "isNotValidAtThisTime": false, 
+                                "isUntrusted": false, 
+                                "keaGroupName": null, 
+                                "keyLength": null, 
+                                "protocolVersion": null, 
+                                "secretKeyLength": null, 
+                                "serverCert": {
+                                    "ANY_CERT": 65535, 
+                                    "ASN1Structure": {
+                                        "ASN1_APPLICATION": 33, 
+                                        "ASN1_BIT_STRING": 3, 
+                                        "ASN1_BMP_STRING": 30, 
+                                        "ASN1_BOOLEAN": 1, 
+                                        "ASN1_CONTEXT_SPECIFIC": 32, 
+                                        "ASN1_END_CONTENTS": 0, 
+                                        "ASN1_ENUMERATED": 10, 
+                                        "ASN1_GEN_TIME": 24, 
+                                        "ASN1_HIGH_TAG_NUMBER": 31, 
+                                        "ASN1_IA5_STRING": 22, 
+                                        "ASN1_INTEGER": 2, 
+                                        "ASN1_NULL": 5, 
+                                        "ASN1_OBJECT_ID": 6, 
+                                        "ASN1_OCTET_STRING": 4, 
+                                        "ASN1_PRINTABLE_STRING": 19, 
+                                        "ASN1_PRIVATE": 34, 
+                                        "ASN1_SEQUENCE": 16, 
+                                        "ASN1_SET": 17, 
+                                        "ASN1_T61_STRING": 20, 
+                                        "ASN1_UNIVERSAL_STRING": 28, 
+                                        "ASN1_UTC_TIME": 23, 
+                                        "ASN1_UTF8_STRING": 12, 
+                                        "ASN1_VISIBLE_STRING": 26, 
+                                        "displayName": "*.cornellcookson.com", 
+                                        "displayValue": "", 
+                                        "tag": 0, 
+                                        "type": 0
+                                    }, 
+                                    "CA_CERT": 1, 
+                                    "EMAIL_CERT": 4, 
+                                    "SERVER_CERT": 8, 
+                                    "UNKNOWN_CERT": 0, 
+                                    "USER_CERT": 2, 
+                                    "certType": 0, 
+                                    "commonName": "*.cornellcookson.com", 
+                                    "dbKey": "AAAAAAAAAAAAAAAQAAAARjh8TZCr0UBGKoy9QbJo3dswRDELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUdlb1RydXN0IEluYy4xHTAbBgNVBAMTFEdlb1RydXN0IFNTTCBDQSAtIEcz", 
+                                    "displayName": "*.cornellcookson.com", 
+                                    "emailAddress": "(no email address)", 
+                                    "isBuiltInRoot": false, 
+                                    "isSelfSigned": false, 
+                                    "issuerCommonName": "GeoTrust SSL CA - G3", 
+                                    "issuerName": "CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US", 
+                                    "issuerOrganization": "GeoTrust Inc.", 
+                                    "issuerOrganizationUnit": "", 
+                                    "keyUsages": "Signing,Key Encipherment", 
+                                    "organization": "CornellCookson Inc.", 
+                                    "organizationalUnit": "Information Technologies", 
+                                    "serialNumber": "38:7C:4D:90:AB:D1:40:46:2A:8C:BD:41:B2:68:DD:DB", 
+                                    "sha1Fingerprint": "E4:31:35:3A:C2:49:63:FA:6E:86:FA:BB:F9:13:1D:64:F8:A4:1B:E3", 
+                                    "sha256Fingerprint": "AB:FE:E6:F5:F2:8E:5A:D8:87:C7:40:41:2E:47:1C:5C:87:46:CB:45:3D:28:C0:F2:36:DE:76:5C:80:2B:8A:36", 
+                                    "sha256SubjectPublicKeyInfoDigest": "fsFESXFaSXz70AHeX0JQ4jdzbzv8mOiXTGb7u2l0iIk=", 
+                                    "subjectAltNames": "*.cornellcookson.com,cornellcookson.com", 
+                                    "subjectName": "CN=*.cornellcookson.com,OU=Information Technologies,O=CornellCookson Inc.,L=Mountain Top,ST=Pennsylvania,C=US", 
+                                    "tokenName": "Software Security Device", 
+                                    "validity": {
+                                        "notAfter": 1565222399000000, 
+                                        "notAfterGMT": "August 7, 2019, 11:59:59 PM GMT", 
+                                        "notAfterLocalDay": "August 7, 2019", 
+                                        "notAfterLocalTime": "August 7, 2019, 11:59:59 PM GMT", 
+                                        "notBefore": 1502064000000000, 
+                                        "notBeforeGMT": "August 7, 2017, 12:00:00 AM GMT", 
+                                        "notBeforeLocalDay": "August 7, 2017", 
+                                        "notBeforeLocalTime": "August 7, 2017, 12:00:00 AM GMT"
+                                    }
+                                }, 
+                                "signatureSchemeName": null, 
+                                "succeededCertChain": null
+                            }, 
+                            "ssl_status_errors": [
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.cipherName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.secretKeyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keaGroupName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.signatureSchemeName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.protocolVersion]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }
+                            ], 
+                            "ssl_status_status": true, 
+                            "status": 2153394164, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://cornelliron.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 11577678695393466000
+                }, 
+                "success": false
+            }, 
+            {
+                "host": "mide2.linxsaas.com.br", 
+                "rank": 545787, 
+                "response": {
+                    "command_time": 1528167186827, 
+                    "id": 14156616117008658000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "mide2.linxsaas.com.br", 
+                            "include_certificates": false, 
+                            "rank": 545787, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1528167187846, 
+                    "result": {
+                        "info": {
+                            "certified_usages": null, 
+                            "error_class": 2, 
+                            "original_uri": "https://mide2.linxsaas.com.br/", 
+                            "raw_error": "805a2ff4", 
+                            "security_info_status": true, 
+                            "security_state": 4, 
+                            "short_error_message": "SSL_ERROR_BAD_CERT_DOMAIN", 
+                            "ssl_status": {
+                                "CERTIFICATE_TRANSPARENCY_NOT_APPLICABLE": 0, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_COMPLIANT": 5, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_DIVERSE_SCTS": 7, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_ENOUGH_SCTS": 6, 
+                                "SSL_VERSION_3": 0, 
+                                "TLS_VERSION_1": 1, 
+                                "TLS_VERSION_1_1": 2, 
+                                "TLS_VERSION_1_2": 3, 
+                                "TLS_VERSION_1_3": 4, 
+                                "certificateTransparencyStatus": 0, 
+                                "cipherName": null, 
+                                "failedCertChain": {}, 
+                                "isDomainMismatch": true, 
+                                "isExtendedValidation": false, 
+                                "isNotValidAtThisTime": true, 
+                                "isUntrusted": false, 
+                                "keaGroupName": null, 
+                                "keyLength": null, 
+                                "protocolVersion": null, 
+                                "secretKeyLength": null, 
+                                "serverCert": {
+                                    "ANY_CERT": 65535, 
+                                    "ASN1Structure": {
+                                        "ASN1_APPLICATION": 33, 
+                                        "ASN1_BIT_STRING": 3, 
+                                        "ASN1_BMP_STRING": 30, 
+                                        "ASN1_BOOLEAN": 1, 
+                                        "ASN1_CONTEXT_SPECIFIC": 32, 
+                                        "ASN1_END_CONTENTS": 0, 
+                                        "ASN1_ENUMERATED": 10, 
+                                        "ASN1_GEN_TIME": 24, 
+                                        "ASN1_HIGH_TAG_NUMBER": 31, 
+                                        "ASN1_IA5_STRING": 22, 
+                                        "ASN1_INTEGER": 2, 
+                                        "ASN1_NULL": 5, 
+                                        "ASN1_OBJECT_ID": 6, 
+                                        "ASN1_OCTET_STRING": 4, 
+                                        "ASN1_PRINTABLE_STRING": 19, 
+                                        "ASN1_PRIVATE": 34, 
+                                        "ASN1_SEQUENCE": 16, 
+                                        "ASN1_SET": 17, 
+                                        "ASN1_T61_STRING": 20, 
+                                        "ASN1_UNIVERSAL_STRING": 28, 
+                                        "ASN1_UTC_TIME": 23, 
+                                        "ASN1_UTF8_STRING": 12, 
+                                        "ASN1_VISIBLE_STRING": 26, 
+                                        "displayName": "apple.mide.linxsaas.com.br", 
+                                        "displayValue": "", 
+                                        "tag": 0, 
+                                        "type": 0
+                                    }, 
+                                    "CA_CERT": 1, 
+                                    "EMAIL_CERT": 4, 
+                                    "SERVER_CERT": 8, 
+                                    "UNKNOWN_CERT": 0, 
+                                    "USER_CERT": 2, 
+                                    "certType": 0, 
+                                    "commonName": "apple.mide.linxsaas.com.br", 
+                                    "dbKey": "AAAAAAAAAAAAAAASAAAAThEhM4hwul5Ct3MZNotqEWPvpjBMMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEiMCAGA1UEAxMZQWxwaGFTU0wgQ0EgLSBTSEEyNTYgLSBHMg==", 
+                                    "displayName": "apple.mide.linxsaas.com.br", 
+                                    "emailAddress": "(no email address)", 
+                                    "isBuiltInRoot": false, 
+                                    "isSelfSigned": false, 
+                                    "issuerCommonName": "AlphaSSL CA - SHA256 - G2", 
+                                    "issuerName": "CN=AlphaSSL CA - SHA256 - G2,O=GlobalSign nv-sa,C=BE", 
+                                    "issuerOrganization": "GlobalSign nv-sa", 
+                                    "issuerOrganizationUnit": "", 
+                                    "keyUsages": "Signing,Key Encipherment", 
+                                    "organization": "", 
+                                    "organizationalUnit": "Domain Control Validated", 
+                                    "serialNumber": "11:21:33:88:70:BA:5E:42:B7:73:19:36:8B:6A:11:63:EF:A6", 
+                                    "sha1Fingerprint": "D1:32:D1:25:A6:55:B3:CF:62:9D:22:0C:D9:59:65:44:A9:4A:65:D7", 
+                                    "sha256Fingerprint": "64:F2:E2:36:D1:23:30:6C:BC:20:FC:A0:F1:AC:E0:FB:80:D7:F7:69:FA:69:FC:DF:42:03:4C:E8:50:7B:5B:DB", 
+                                    "sha256SubjectPublicKeyInfoDigest": "QXJLjMbYSbtnnMtI1aHS3lqbsI+iOF0xUHVu8aRbUns=", 
+                                    "subjectAltNames": "apple.mide.linxsaas.com.br", 
+                                    "subjectName": "CN=apple.mide.linxsaas.com.br,OU=Domain Control Validated,C=BR", 
+                                    "tokenName": "Software Security Device", 
+                                    "validity": {
+                                        "notAfter": 1520609877000000, 
+                                        "notAfterGMT": "March 9, 2018, 3:37:57 PM GMT", 
+                                        "notAfterLocalDay": "March 9, 2018", 
+                                        "notAfterLocalTime": "March 9, 2018, 3:37:57 PM GMT", 
+                                        "notBefore": 1425915477000000, 
+                                        "notBeforeGMT": "March 9, 2015, 3:37:57 PM GMT", 
+                                        "notBeforeLocalDay": "March 9, 2015", 
+                                        "notBeforeLocalTime": "March 9, 2015, 3:37:57 PM GMT"
+                                    }
+                                }, 
+                                "signatureSchemeName": null, 
+                                "succeededCertChain": null
+                            }, 
+                            "ssl_status_errors": [
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.cipherName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.secretKeyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keaGroupName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.signatureSchemeName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.protocolVersion]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }
+                            ], 
+                            "ssl_status_status": true, 
+                            "status": 2153394164, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://mide2.linxsaas.com.br/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 10161455049064737000
+                }, 
+                "success": false
+            }, 
+            {
+                "host": "apk-dl.coremobility.com", 
+                "rank": 558048, 
+                "response": {
+                    "command_time": 1528167686620, 
+                    "id": 15966255586254436000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "apk-dl.coremobility.com", 
+                            "include_certificates": false, 
+                            "rank": 558048, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1528167686837, 
+                    "result": {
+                        "info": {
+                            "certified_usages": null, 
+                            "error_class": 2, 
+                            "original_uri": "https://apk-dl.coremobility.com/", 
+                            "raw_error": "805a1ff3", 
+                            "security_info_status": true, 
+                            "security_state": 4, 
+                            "short_error_message": "SEC_ERROR_UNKNOWN_ISSUER", 
+                            "ssl_status": {
+                                "CERTIFICATE_TRANSPARENCY_NOT_APPLICABLE": 0, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_COMPLIANT": 5, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_DIVERSE_SCTS": 7, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_ENOUGH_SCTS": 6, 
+                                "SSL_VERSION_3": 0, 
+                                "TLS_VERSION_1": 1, 
+                                "TLS_VERSION_1_1": 2, 
+                                "TLS_VERSION_1_2": 3, 
+                                "TLS_VERSION_1_3": 4, 
+                                "certificateTransparencyStatus": 0, 
+                                "cipherName": null, 
+                                "failedCertChain": {}, 
+                                "isDomainMismatch": false, 
+                                "isExtendedValidation": false, 
+                                "isNotValidAtThisTime": false, 
+                                "isUntrusted": true, 
+                                "keaGroupName": null, 
+                                "keyLength": null, 
+                                "protocolVersion": null, 
+                                "secretKeyLength": null, 
+                                "serverCert": {
+                                    "ANY_CERT": 65535, 
+                                    "ASN1Structure": {
+                                        "ASN1_APPLICATION": 33, 
+                                        "ASN1_BIT_STRING": 3, 
+                                        "ASN1_BMP_STRING": 30, 
+                                        "ASN1_BOOLEAN": 1, 
+                                        "ASN1_CONTEXT_SPECIFIC": 32, 
+                                        "ASN1_END_CONTENTS": 0, 
+                                        "ASN1_ENUMERATED": 10, 
+                                        "ASN1_GEN_TIME": 24, 
+                                        "ASN1_HIGH_TAG_NUMBER": 31, 
+                                        "ASN1_IA5_STRING": 22, 
+                                        "ASN1_INTEGER": 2, 
+                                        "ASN1_NULL": 5, 
+                                        "ASN1_OBJECT_ID": 6, 
+                                        "ASN1_OCTET_STRING": 4, 
+                                        "ASN1_PRINTABLE_STRING": 19, 
+                                        "ASN1_PRIVATE": 34, 
+                                        "ASN1_SEQUENCE": 16, 
+                                        "ASN1_SET": 17, 
+                                        "ASN1_T61_STRING": 20, 
+                                        "ASN1_UNIVERSAL_STRING": 28, 
+                                        "ASN1_UTC_TIME": 23, 
+                                        "ASN1_UTF8_STRING": 12, 
+                                        "ASN1_VISIBLE_STRING": 26, 
+                                        "displayName": "*.coremobility.com", 
+                                        "displayValue": "", 
+                                        "tag": 0, 
+                                        "type": 0
+                                    }, 
+                                    "CA_CERT": 1, 
+                                    "EMAIL_CERT": 4, 
+                                    "SERVER_CERT": 8, 
+                                    "UNKNOWN_CERT": 0, 
+                                    "USER_CERT": 2, 
+                                    "certType": 0, 
+                                    "commonName": "*.coremobility.com", 
+                                    "dbKey": "AAAAAAAAAAAAAAARAAAAvQD5Fkc8JaHZ+gAAAABQ20ylMIG6MQswCQYDVQQGEwJVUzEWMBQGA1UEChMNRW50cnVzdCwgSW5jLjEoMCYGA1UECxMfU2VlIHd3dy5lbnRydXN0Lm5ldC9sZWdhbC10ZXJtczE5MDcGA1UECxMwKGMpIDIwMTIgRW50cnVzdCwgSW5jLiAtIGZvciBhdXRob3JpemVkIHVzZSBvbmx5MS4wLAYDVQQDEyVFbnRydXN0IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gTDFL", 
+                                    "displayName": "*.coremobility.com", 
+                                    "emailAddress": "(no email address)", 
+                                    "isBuiltInRoot": false, 
+                                    "isSelfSigned": false, 
+                                    "issuerCommonName": "Entrust Certification Authority - L1K", 
+                                    "issuerName": "CN=Entrust Certification Authority - L1K,OU=\"(c) 2012 Entrust, Inc. - for authorized use only\",OU=See www.entrust.net/legal-terms,O=\"Entrust, Inc.\",C=US", 
+                                    "issuerOrganization": "Entrust, Inc.", 
+                                    "issuerOrganizationUnit": "See www.entrust.net/legal-terms", 
+                                    "keyUsages": "Signing,Key Encipherment", 
+                                    "organization": "Core Mobility", 
+                                    "organizationalUnit": "", 
+                                    "serialNumber": "00:F9:16:47:3C:25:A1:D9:FA:00:00:00:00:50:DB:4C:A5", 
+                                    "sha1Fingerprint": "9F:D5:06:6F:6B:9B:67:7C:26:D7:24:74:7A:0D:7F:1D:E7:21:FF:43", 
+                                    "sha256Fingerprint": "99:29:06:E4:7C:D0:85:10:37:16:6F:4D:C5:99:C4:51:C0:53:13:A3:7E:DF:1C:4A:3B:87:4F:B2:F7:FB:85:22", 
+                                    "sha256SubjectPublicKeyInfoDigest": "dFOJobBXeCD20Bk44uvPXnqW9p4CE6PMCWDe4h2ckH0=", 
+                                    "subjectAltNames": "*.coremobility.com,coremobility.com", 
+                                    "subjectName": "CN=*.coremobility.com,O=Core Mobility,L=Aliso Viejo,ST=California,C=US", 
+                                    "tokenName": "Software Security Device", 
+                                    "validity": {
+                                        "notAfter": 1580514593000000, 
+                                        "notAfterGMT": "January 31, 2020, 11:49:53 PM GMT", 
+                                        "notAfterLocalDay": "January 31, 2020", 
+                                        "notAfterLocalTime": "January 31, 2020, 11:49:53 PM GMT", 
+                                        "notBefore": 1485904795000000, 
+                                        "notBeforeGMT": "January 31, 2017, 11:19:55 PM GMT", 
+                                        "notBeforeLocalDay": "January 31, 2017", 
+                                        "notBeforeLocalTime": "January 31, 2017, 11:19:55 PM GMT"
+                                    }
+                                }, 
+                                "signatureSchemeName": null, 
+                                "succeededCertChain": null
+                            }, 
+                            "ssl_status_errors": [
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.cipherName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.secretKeyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keaGroupName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.signatureSchemeName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.protocolVersion]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }
+                            ], 
+                            "ssl_status_status": true, 
+                            "status": 2153390067, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://apk-dl.coremobility.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 12977212145146042000
+                }, 
+                "success": false
+            }, 
+            {
+                "host": "mail.maltacourt.ca", 
+                "rank": 831323, 
+                "response": {
+                    "command_time": 1528174425679, 
+                    "id": 11364107164243823000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "mail.maltacourt.ca", 
+                            "include_certificates": false, 
+                            "rank": 831323, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1528174426096, 
+                    "result": {
+                        "info": {
+                            "certified_usages": null, 
+                            "error_class": 2, 
+                            "original_uri": "https://mail.maltacourt.ca/", 
+                            "raw_error": "805a1ff3", 
+                            "security_info_status": true, 
+                            "security_state": 4, 
+                            "short_error_message": "SEC_ERROR_UNKNOWN_ISSUER", 
+                            "ssl_status": {
+                                "CERTIFICATE_TRANSPARENCY_NOT_APPLICABLE": 0, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_COMPLIANT": 5, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_DIVERSE_SCTS": 7, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_ENOUGH_SCTS": 6, 
+                                "SSL_VERSION_3": 0, 
+                                "TLS_VERSION_1": 1, 
+                                "TLS_VERSION_1_1": 2, 
+                                "TLS_VERSION_1_2": 3, 
+                                "TLS_VERSION_1_3": 4, 
+                                "certificateTransparencyStatus": 0, 
+                                "cipherName": null, 
+                                "failedCertChain": {}, 
+                                "isDomainMismatch": false, 
+                                "isExtendedValidation": false, 
+                                "isNotValidAtThisTime": false, 
+                                "isUntrusted": true, 
+                                "keaGroupName": null, 
+                                "keyLength": null, 
+                                "protocolVersion": null, 
+                                "secretKeyLength": null, 
+                                "serverCert": {
+                                    "ANY_CERT": 65535, 
+                                    "ASN1Structure": {
+                                        "ASN1_APPLICATION": 33, 
+                                        "ASN1_BIT_STRING": 3, 
+                                        "ASN1_BMP_STRING": 30, 
+                                        "ASN1_BOOLEAN": 1, 
+                                        "ASN1_CONTEXT_SPECIFIC": 32, 
+                                        "ASN1_END_CONTENTS": 0, 
+                                        "ASN1_ENUMERATED": 10, 
+                                        "ASN1_GEN_TIME": 24, 
+                                        "ASN1_HIGH_TAG_NUMBER": 31, 
+                                        "ASN1_IA5_STRING": 22, 
+                                        "ASN1_INTEGER": 2, 
+                                        "ASN1_NULL": 5, 
+                                        "ASN1_OBJECT_ID": 6, 
+                                        "ASN1_OCTET_STRING": 4, 
+                                        "ASN1_PRINTABLE_STRING": 19, 
+                                        "ASN1_PRIVATE": 34, 
+                                        "ASN1_SEQUENCE": 16, 
+                                        "ASN1_SET": 17, 
+                                        "ASN1_T61_STRING": 20, 
+                                        "ASN1_UNIVERSAL_STRING": 28, 
+                                        "ASN1_UTC_TIME": 23, 
+                                        "ASN1_UTF8_STRING": 12, 
+                                        "ASN1_VISIBLE_STRING": 26, 
+                                        "displayName": "mail.maltacourt.ca", 
+                                        "displayValue": "", 
+                                        "tag": 0, 
+                                        "type": 0
+                                    }, 
+                                    "CA_CERT": 1, 
+                                    "EMAIL_CERT": 4, 
+                                    "SERVER_CERT": 8, 
+                                    "UNKNOWN_CERT": 0, 
+                                    "USER_CERT": 2, 
+                                    "certType": 0, 
+                                    "commonName": "mail.maltacourt.ca", 
+                                    "dbKey": "AAAAAAAAAAAAAAATAAAAUBIAAAxY33pFIlcGo6gAAQAADFgwTjELMAkGA1UEBhMCQ0ExIDAeBgNVBAoTF01hbHRhY291cnQgKENhbmFkYSkgTHRkMR0wGwYDVQQDExRNYWx0YWNvdXJ0IENhbmFkYSBHMg==", 
+                                    "displayName": "mail.maltacourt.ca", 
+                                    "emailAddress": "(no email address)", 
+                                    "isBuiltInRoot": false, 
+                                    "isSelfSigned": false, 
+                                    "issuerCommonName": "Maltacourt Canada G2", 
+                                    "issuerName": "CN=Maltacourt Canada G2,O=Maltacourt (Canada) Ltd,C=CA", 
+                                    "issuerOrganization": "Maltacourt (Canada) Ltd", 
+                                    "issuerOrganizationUnit": "", 
+                                    "keyUsages": "Signing,Key Encipherment,Data Encipherment", 
+                                    "organization": "Maltacourt (Canada) Ltd", 
+                                    "organizationalUnit": "", 
+                                    "serialNumber": "12:00:00:0C:58:DF:7A:45:22:57:06:A3:A8:00:01:00:00:0C:58", 
+                                    "sha1Fingerprint": "2D:28:68:54:E2:A6:A8:D4:BA:C9:5A:AE:E8:5A:4B:26:79:C0:8F:40", 
+                                    "sha256Fingerprint": "3C:9B:C9:69:80:0E:13:37:81:53:A5:0C:25:29:CF:8C:11:03:F5:A4:C0:71:D4:E5:26:D8:60:B3:08:A5:AC:4E", 
+                                    "sha256SubjectPublicKeyInfoDigest": "rsufuYSFv9DsjL0Mjko3NhlSn78gEcr2lJXCy7FuRbI=", 
+                                    "subjectAltNames": "*.mlines.ca,*.beacon.ca,*.nvocc.ca,*.maltacourt.ca", 
+                                    "subjectName": "CN=mail.maltacourt.ca,O=Maltacourt (Canada) Ltd,L=Cambridge,ST=ON,C=CA", 
+                                    "tokenName": "Software Security Device", 
+                                    "validity": {
+                                        "notAfter": 1570214175000000, 
+                                        "notAfterGMT": "October 4, 2019, 6:36:15 PM GMT", 
+                                        "notAfterLocalDay": "October 4, 2019", 
+                                        "notAfterLocalTime": "October 4, 2019, 6:36:15 PM GMT", 
+                                        "notBefore": 1507142175000000, 
+                                        "notBeforeGMT": "October 4, 2017, 6:36:15 PM GMT", 
+                                        "notBeforeLocalDay": "October 4, 2017", 
+                                        "notBeforeLocalTime": "October 4, 2017, 6:36:15 PM GMT"
+                                    }
+                                }, 
+                                "signatureSchemeName": null, 
+                                "succeededCertChain": null
+                            }, 
+                            "ssl_status_errors": [
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.cipherName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.secretKeyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keaGroupName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.signatureSchemeName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.protocolVersion]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }
+                            ], 
+                            "ssl_status_status": true, 
+                            "status": 2153390067, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://mail.maltacourt.ca/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 13846522025735383000
+                }, 
+                "success": false
+            }, 
+            {
+                "host": "departamento.metroscubicos.com", 
+                "rank": 932628, 
+                "response": {
+                    "command_time": 1528176825413, 
+                    "id": 12787236264373199000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "departamento.metroscubicos.com", 
+                            "include_certificates": false, 
+                            "rank": 932628, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1528176825730, 
+                    "result": {
+                        "info": {
+                            "certified_usages": null, 
+                            "error_class": 2, 
+                            "original_uri": "https://departamento.metroscubicos.com/", 
+                            "raw_error": "805a1ff3", 
+                            "security_info_status": true, 
+                            "security_state": 4, 
+                            "short_error_message": "SEC_ERROR_UNKNOWN_ISSUER", 
+                            "ssl_status": {
+                                "CERTIFICATE_TRANSPARENCY_NOT_APPLICABLE": 0, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_COMPLIANT": 5, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_DIVERSE_SCTS": 7, 
+                                "CERTIFICATE_TRANSPARENCY_POLICY_NOT_ENOUGH_SCTS": 6, 
+                                "SSL_VERSION_3": 0, 
+                                "TLS_VERSION_1": 1, 
+                                "TLS_VERSION_1_1": 2, 
+                                "TLS_VERSION_1_2": 3, 
+                                "TLS_VERSION_1_3": 4, 
+                                "certificateTransparencyStatus": 0, 
+                                "cipherName": null, 
+                                "failedCertChain": {}, 
+                                "isDomainMismatch": false, 
+                                "isExtendedValidation": false, 
+                                "isNotValidAtThisTime": false, 
+                                "isUntrusted": true, 
+                                "keaGroupName": null, 
+                                "keyLength": null, 
+                                "protocolVersion": null, 
+                                "secretKeyLength": null, 
+                                "serverCert": {
+                                    "ANY_CERT": 65535, 
+                                    "ASN1Structure": {
+                                        "ASN1_APPLICATION": 33, 
+                                        "ASN1_BIT_STRING": 3, 
+                                        "ASN1_BMP_STRING": 30, 
+                                        "ASN1_BOOLEAN": 1, 
+                                        "ASN1_CONTEXT_SPECIFIC": 32, 
+                                        "ASN1_END_CONTENTS": 0, 
+                                        "ASN1_ENUMERATED": 10, 
+                                        "ASN1_GEN_TIME": 24, 
+                                        "ASN1_HIGH_TAG_NUMBER": 31, 
+                                        "ASN1_IA5_STRING": 22, 
+                                        "ASN1_INTEGER": 2, 
+                                        "ASN1_NULL": 5, 
+                                        "ASN1_OBJECT_ID": 6, 
+                                        "ASN1_OCTET_STRING": 4, 
+                                        "ASN1_PRINTABLE_STRING": 19, 
+                                        "ASN1_PRIVATE": 34, 
+                                        "ASN1_SEQUENCE": 16, 
+                                        "ASN1_SET": 17, 
+                                        "ASN1_T61_STRING": 20, 
+                                        "ASN1_UNIVERSAL_STRING": 28, 
+                                        "ASN1_UTC_TIME": 23, 
+                                        "ASN1_UTF8_STRING": 12, 
+                                        "ASN1_VISIBLE_STRING": 26, 
+                                        "displayName": "*.metroscubicos.com", 
+                                        "displayValue": "", 
+                                        "tag": 0, 
+                                        "type": 0
+                                    }, 
+                                    "CA_CERT": 1, 
+                                    "EMAIL_CERT": 4, 
+                                    "SERVER_CERT": 8, 
+                                    "UNKNOWN_CERT": 0, 
+                                    "USER_CERT": 2, 
+                                    "certType": 0, 
+                                    "commonName": "*.metroscubicos.com", 
+                                    "dbKey": "AAAAAAAAAAAAAAAQAAAAgF7XNd7bColJbW8mh2CLnpowfjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5bWFudGVjIENvcnBvcmF0aW9uMR8wHQYDVQQLExZTeW1hbnRlYyBUcnVzdCBOZXR3b3JrMS8wLQYDVQQDEyZTeW1hbnRlYyBDbGFzcyAzIFNlY3VyZSBTZXJ2ZXIgQ0EgLSBHNA==", 
+                                    "displayName": "*.metroscubicos.com", 
+                                    "emailAddress": "(no email address)", 
+                                    "isBuiltInRoot": false, 
+                                    "isSelfSigned": false, 
+                                    "issuerCommonName": "Symantec Class 3 Secure Server CA - G4", 
+                                    "issuerName": "CN=Symantec Class 3 Secure Server CA - G4,OU=Symantec Trust Network,O=Symantec Corporation,C=US", 
+                                    "issuerOrganization": "Symantec Corporation", 
+                                    "issuerOrganizationUnit": "Symantec Trust Network", 
+                                    "keyUsages": "Signing,Key Encipherment", 
+                                    "organization": "MercadoLibre S. de R.L. de C.V.", 
+                                    "organizationalUnit": "Metroscubicos", 
+                                    "serialNumber": "5E:D7:35:DE:DB:0A:89:49:6D:6F:26:87:60:8B:9E:9A", 
+                                    "sha1Fingerprint": "33:6B:AD:84:E1:49:57:84:6E:D8:24:3E:45:2F:7C:39:9B:EC:C6:5C", 
+                                    "sha256Fingerprint": "7E:6D:88:9F:3A:2F:B6:A4:2E:0F:70:ED:CB:7C:57:1E:8F:B5:D7:42:1F:EF:6E:72:0D:E2:EE:71:3B:ED:F4:34", 
+                                    "sha256SubjectPublicKeyInfoDigest": "n9jU/nOXn7S3ueHmLipG97n9nREjlCFQFMUk2NSUjZ4=", 
+                                    "subjectAltNames": "metroscubicos.com,*.metroscubicos.com", 
+                                    "subjectName": "CN=*.metroscubicos.com,OU=Metroscubicos,O=MercadoLibre S. de R.L. de C.V.,L=Mexico,ST=Districto Federal,C=MX", 
+                                    "tokenName": "Software Security Device", 
+                                    "validity": {
+                                        "notAfter": 1553385599000000, 
+                                        "notAfterGMT": "March 23, 2019, 11:59:59 PM GMT", 
+                                        "notAfterLocalDay": "March 23, 2019", 
+                                        "notAfterLocalTime": "March 23, 2019, 11:59:59 PM GMT", 
+                                        "notBefore": 1490140800000000, 
+                                        "notBeforeGMT": "March 22, 2017, 12:00:00 AM GMT", 
+                                        "notBeforeLocalDay": "March 22, 2017", 
+                                        "notBeforeLocalTime": "March 22, 2017, 12:00:00 AM GMT"
+                                    }
+                                }, 
+                                "signatureSchemeName": null, 
+                                "succeededCertChain": null
+                            }, 
+                            "ssl_status_errors": [
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.cipherName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.secretKeyLength]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.keaGroupName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.signatureSchemeName]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }, 
+                                {
+                                    "key": "[Exception... \"Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsISSLStatus.protocolVersion]\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: /home/ubuntu/tls-canary/tlscanary/js/scan_worker.js :: collect_request_info :: line 184\"  data: no]"
+                                }
+                            ], 
+                            "ssl_status_status": true, 
+                            "status": 2153390067, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://departamento.metroscubicos.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 1086129495951202300
+                }, 
+                "success": false
+            }
+        ], 
+        "meta": {
+            "args": {
+                "base": "nightly", 
+                "cache": false, 
+                "debug": false, 
+                "filter": 1, 
+                "limit": null, 
+                "max_timeout": 20, 
+                "mode": "regression", 
+                "onecrl": "custom", 
+                "onecrlpin": "stable", 
+                "parallel": 4, 
+                "prefs": null, 
+                "prefs_base": null, 
+                "prefs_test": null, 
+                "remove_certs": true, 
+                "requestsperworker": 50, 
+                "scans": 20, 
+                "source": "top", 
+                "test": "nightly", 
+                "timeout": 10, 
+                "workdir": "/home/ubuntu/.tlscanary"
+            }, 
+            "argv": [
+                "/home/ubuntu/tls-canary/bin/tlscanary", 
+                "regression", 
+                "-x", 
+                "20", 
+                "-b", 
+                "nightly", 
+                "-r", 
+                "-o", 
+                "custom"
+            ], 
+            "base_metadata": {
+                "appConstants": {
+                    "ACCESSIBILITY": true, 
+                    "ANDROID_PACKAGE_NAME": "org.mozilla.firefox", 
+                    "ASAN": false, 
+                    "DEBUG": false, 
+                    "DEBUG_JS_MODULES": "", 
+                    "DLL_PREFIX": "lib", 
+                    "DLL_SUFFIX": ".so", 
+                    "EARLY_BETA_OR_EARLIER": true, 
+                    "HAVE_SHELL_SERVICE": true, 
+                    "HAVE_USR_LIB64_DIR": false, 
+                    "INSTALL_LOCALE": "en-US", 
+                    "MENUBAR_CAN_AUTOHIDE": true, 
+                    "MOZILLA_OFFICIAL": true, 
+                    "MOZ_ADDON_SIGNING": true, 
+                    "MOZ_ALLOW_LEGACY_EXTENSIONS": true, 
+                    "MOZ_ANDROID_ACTIVITY_STREAM": false, 
+                    "MOZ_ANDROID_HISTORY": false, 
+                    "MOZ_ANDROID_MOZILLA_ONLINE": false, 
+                    "MOZ_APP_NAME": "firefox", 
+                    "MOZ_APP_VERSION": "62.0a1", 
+                    "MOZ_APP_VERSION_DISPLAY": "62.0a1", 
+                    "MOZ_BING_API_CLIENTID": "no-bing-api-clientid", 
+                    "MOZ_BING_API_KEY": "no-bing-api-key", 
+                    "MOZ_BUILD_APP": "browser", 
+                    "MOZ_CONTENT_SANDBOX": true, 
+                    "MOZ_CRASHREPORTER": true, 
+                    "MOZ_DATA_REPORTING": true, 
+                    "MOZ_DEV_EDITION": false, 
+                    "MOZ_GECKO_PROFILER": true, 
+                    "MOZ_GOOGLE_API_KEY": "AIzaSyD_Drzahe4dBzGCZ9ArvowCvrPx_yFrlCM", 
+                    "MOZ_GRAPHENE": false, 
+                    "MOZ_MACBUNDLE_NAME": "Firefox Nightly.app", 
+                    "MOZ_MAINTENANCE_SERVICE": false, 
+                    "MOZ_MOZILLA_API_KEY": "7e40f68c-7938-4c5d-9f95-e61647c213eb", 
+                    "MOZ_OFFICIAL_BRANDING": false, 
+                    "MOZ_PLACES": true, 
+                    "MOZ_REQUIRE_SIGNING": false, 
+                    "MOZ_SANDBOX": true, 
+                    "MOZ_SERVICES_HEALTHREPORT": true, 
+                    "MOZ_SWITCHBOARD": false, 
+                    "MOZ_SYSTEM_NSS": false, 
+                    "MOZ_TELEMETRY_ON_BY_DEFAULT": true, 
+                    "MOZ_TELEMETRY_REPORTING": true, 
+                    "MOZ_TOOLKIT_SEARCH": true, 
+                    "MOZ_UPDATER": true, 
+                    "MOZ_UPDATE_CHANNEL": "nightly", 
+                    "MOZ_WEBRTC": true, 
+                    "MOZ_WIDGET_GTK": true, 
+                    "MOZ_WIDGET_TOOLKIT": "gtk3", 
+                    "NIGHTLY_BUILD": true, 
+                    "RELEASE_OR_BETA": false, 
+                    "SOURCE_REVISION_URL": "https://hg.mozilla.org/mozilla-central/rev/fa5724780fe76d6ccbbd08d978342a1db6a43d49", 
+                    "XP_UNIX": true, 
+                    "platform": "linux"
+                }, 
+                "app_version": "62.0a1", 
+                "application_ini": {
+                    "buildid": "20180604100129", 
+                    "codename": "Firefox Nightly", 
+                    "id": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}", 
+                    "name": "Firefox", 
+                    "remotingname": "firefox", 
+                    "sourcerepository": "https://hg.mozilla.org/mozilla-central", 
+                    "sourcestamp": "fa5724780fe76d6ccbbd08d978342a1db6a43d49", 
+                    "vendor": "Mozilla", 
+                    "version": "62.0a1"
+                }, 
+                "branch": "nightly", 
+                "nspr_version": "NSPR 4.19", 
+                "nssInfo": {
+                    "NSPR_MinVersion": "4.19", 
+                    "NSPR_Version": "4.19", 
+                    "NSSSMIME_MinVersion": "3.38 Beta", 
+                    "NSSSMIME_Version": "3.38 Beta", 
+                    "NSSSSL_MinVersion": "3.38 Beta", 
+                    "NSSSSL_Version": "3.38 Beta", 
+                    "NSSUTIL_MinVersion": "3.38 Beta", 
+                    "NSSUTIL_Version": "3.38 Beta", 
+                    "NSS_MinVersion": "3.38 Beta", 
+                    "NSS_Version": "3.38 Beta"
+                }, 
+                "nss_version": "NSS 3.38 Beta", 
+                "package_origin": "https://download.mozilla.org/?product=firefox-nightly-latest&os=linux64&lang=en-US", 
+                "platform": "linux"
+            }, 
+            "format_revision": 2, 
+            "log_lines": 7, 
+            "mode": "regression", 
+            "profiles": [
+                {
+                    "log_part": "test_profile.zip", 
+                    "name": "test_profile"
+                }, 
+                {
+                    "log_part": "base_profile.zip", 
+                    "name": "base_profile"
+                }, 
+                {
+                    "log_part": "altered_profile.zip", 
+                    "name": "altered_profile"
+                }
+            ], 
+            "run_completed": true, 
+            "run_finish_time": "2018-06-05T05:58:20.180659", 
+            "run_start_time": "2018-06-04T23:15:37.626105", 
+            "sources_size": 496833, 
+            "test_metadata": {
+                "appConstants": {
+                    "ACCESSIBILITY": true, 
+                    "ANDROID_PACKAGE_NAME": "org.mozilla.firefox", 
+                    "ASAN": false, 
+                    "DEBUG": false, 
+                    "DEBUG_JS_MODULES": "", 
+                    "DLL_PREFIX": "lib", 
+                    "DLL_SUFFIX": ".so", 
+                    "EARLY_BETA_OR_EARLIER": true, 
+                    "HAVE_SHELL_SERVICE": true, 
+                    "HAVE_USR_LIB64_DIR": false, 
+                    "INSTALL_LOCALE": "en-US", 
+                    "MENUBAR_CAN_AUTOHIDE": true, 
+                    "MOZILLA_OFFICIAL": true, 
+                    "MOZ_ADDON_SIGNING": true, 
+                    "MOZ_ALLOW_LEGACY_EXTENSIONS": true, 
+                    "MOZ_ANDROID_ACTIVITY_STREAM": false, 
+                    "MOZ_ANDROID_HISTORY": false, 
+                    "MOZ_ANDROID_MOZILLA_ONLINE": false, 
+                    "MOZ_APP_NAME": "firefox", 
+                    "MOZ_APP_VERSION": "62.0a1", 
+                    "MOZ_APP_VERSION_DISPLAY": "62.0a1", 
+                    "MOZ_BING_API_CLIENTID": "no-bing-api-clientid", 
+                    "MOZ_BING_API_KEY": "no-bing-api-key", 
+                    "MOZ_BUILD_APP": "browser", 
+                    "MOZ_CONTENT_SANDBOX": true, 
+                    "MOZ_CRASHREPORTER": true, 
+                    "MOZ_DATA_REPORTING": true, 
+                    "MOZ_DEV_EDITION": false, 
+                    "MOZ_GECKO_PROFILER": true, 
+                    "MOZ_GOOGLE_API_KEY": "AIzaSyD_Drzahe4dBzGCZ9ArvowCvrPx_yFrlCM", 
+                    "MOZ_GRAPHENE": false, 
+                    "MOZ_MACBUNDLE_NAME": "Firefox Nightly.app", 
+                    "MOZ_MAINTENANCE_SERVICE": false, 
+                    "MOZ_MOZILLA_API_KEY": "7e40f68c-7938-4c5d-9f95-e61647c213eb", 
+                    "MOZ_OFFICIAL_BRANDING": false, 
+                    "MOZ_PLACES": true, 
+                    "MOZ_REQUIRE_SIGNING": false, 
+                    "MOZ_SANDBOX": true, 
+                    "MOZ_SERVICES_HEALTHREPORT": true, 
+                    "MOZ_SWITCHBOARD": false, 
+                    "MOZ_SYSTEM_NSS": false, 
+                    "MOZ_TELEMETRY_ON_BY_DEFAULT": true, 
+                    "MOZ_TELEMETRY_REPORTING": true, 
+                    "MOZ_TOOLKIT_SEARCH": true, 
+                    "MOZ_UPDATER": true, 
+                    "MOZ_UPDATE_CHANNEL": "nightly", 
+                    "MOZ_WEBRTC": true, 
+                    "MOZ_WIDGET_GTK": true, 
+                    "MOZ_WIDGET_TOOLKIT": "gtk3", 
+                    "NIGHTLY_BUILD": true, 
+                    "RELEASE_OR_BETA": false, 
+                    "SOURCE_REVISION_URL": "https://hg.mozilla.org/mozilla-central/rev/fa5724780fe76d6ccbbd08d978342a1db6a43d49", 
+                    "XP_UNIX": true, 
+                    "platform": "linux"
+                }, 
+                "app_version": "62.0a1", 
+                "application_ini": {
+                    "buildid": "20180604100129", 
+                    "codename": "Firefox Nightly", 
+                    "id": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}", 
+                    "name": "Firefox", 
+                    "remotingname": "firefox", 
+                    "sourcerepository": "https://hg.mozilla.org/mozilla-central", 
+                    "sourcestamp": "fa5724780fe76d6ccbbd08d978342a1db6a43d49", 
+                    "vendor": "Mozilla", 
+                    "version": "62.0a1"
+                }, 
+                "branch": "nightly", 
+                "nspr_version": "NSPR 4.19", 
+                "nssInfo": {
+                    "NSPR_MinVersion": "4.19", 
+                    "NSPR_Version": "4.19", 
+                    "NSSSMIME_MinVersion": "3.38 Beta", 
+                    "NSSSMIME_Version": "3.38 Beta", 
+                    "NSSSSL_MinVersion": "3.38 Beta", 
+                    "NSSSSL_Version": "3.38 Beta", 
+                    "NSSUTIL_MinVersion": "3.38 Beta", 
+                    "NSSUTIL_Version": "3.38 Beta", 
+                    "NSS_MinVersion": "3.38 Beta", 
+                    "NSS_Version": "3.38 Beta"
+                }, 
+                "nss_version": "NSS 3.38 Beta", 
+                "package_origin": "https://download.mozilla.org/?product=firefox-nightly-latest&os=linux64&lang=en-US", 
+                "platform": "linux"
+            }, 
+            "tlscanary_version": "3.2.0"
+        }
+    }
+]
