@@ -1,0 +1,1545 @@
+[
+    {
+        "data": [
+            {
+                "host": "accounts.google.com", 
+                "rank": 44, 
+                "response": {
+                    "command_time": 1534360914780, 
+                    "id": 8969316573577556000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "accounts.google.com", 
+                            "include_certificates": true, 
+                            "rank": 44, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915940, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://accounts.google.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://accounts.google.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "youtube.com", 
+                "rank": 18, 
+                "response": {
+                    "command_time": 1534360914772, 
+                    "id": 6018589016094847000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "youtube.com", 
+                            "include_certificates": true, 
+                            "rank": 18, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915940, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://youtube.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://youtube.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "doubleclick.net", 
+                "rank": 8, 
+                "response": {
+                    "command_time": 1534360914774, 
+                    "id": 14003401913005478000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "doubleclick.net", 
+                            "include_certificates": true, 
+                            "rank": 8, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360916035, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://doubleclick.net/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://doubleclick.net/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "www.google.com", 
+                "rank": 5, 
+                "response": {
+                    "command_time": 1534360914764, 
+                    "id": 2777265215466191000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "www.google.com", 
+                            "include_certificates": true, 
+                            "rank": 5, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915534, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://www.google.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://www.google.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "fonts.googleapis.com", 
+                "rank": 27, 
+                "response": {
+                    "command_time": 1534360914775, 
+                    "id": 9793371675112675000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "fonts.googleapis.com", 
+                            "include_certificates": true, 
+                            "rank": 27, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915332, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://fonts.googleapis.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://fonts.googleapis.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "clients1.google.com", 
+                "rank": 40, 
+                "response": {
+                    "command_time": 1534360914783, 
+                    "id": 3755596913818272000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "clients1.google.com", 
+                            "include_certificates": true, 
+                            "rank": 40, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915935, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://clients1.google.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://clients1.google.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "connect.facebook.net", 
+                "rank": 48, 
+                "response": {
+                    "command_time": 1534360914785, 
+                    "id": 17956480096437168000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "connect.facebook.net", 
+                            "include_certificates": true, 
+                            "rank": 48, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915941, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://connect.facebook.net/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://connect.facebook.net/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "apis.google.com", 
+                "rank": 50, 
+                "response": {
+                    "command_time": 1534360914768, 
+                    "id": 8383032275035337000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "apis.google.com", 
+                            "include_certificates": true, 
+                            "rank": 50, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360916034, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://apis.google.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://apis.google.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "googlesyndication.com", 
+                "rank": 31, 
+                "response": {
+                    "command_time": 1534360914781, 
+                    "id": 10001251662555023000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "googlesyndication.com", 
+                            "include_certificates": true, 
+                            "rank": 31, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915936, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://googlesyndication.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://googlesyndication.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "www.facebook.com", 
+                "rank": 16, 
+                "response": {
+                    "command_time": 1534360914781, 
+                    "id": 3011916013974700000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "www.facebook.com", 
+                            "include_certificates": true, 
+                            "rank": 16, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915938, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://www.facebook.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://www.facebook.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "graph.facebook.com", 
+                "rank": 26, 
+                "response": {
+                    "command_time": 1534360914763, 
+                    "id": 16624936345651930000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "graph.facebook.com", 
+                            "include_certificates": true, 
+                            "rank": 26, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915534, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://graph.facebook.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://graph.facebook.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "www.youtube.com", 
+                "rank": 36, 
+                "response": {
+                    "command_time": 1534360914767, 
+                    "id": 18362609766999886000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "www.youtube.com", 
+                            "include_certificates": true, 
+                            "rank": 36, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360916435, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://www.youtube.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://www.youtube.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "apple.com", 
+                "rank": 17, 
+                "response": {
+                    "command_time": 1534360914786, 
+                    "id": 16804401566620246000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "apple.com", 
+                            "include_certificates": true, 
+                            "rank": 17, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360916036, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://apple.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://apple.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "clientservices.googleapis.com", 
+                "rank": 29, 
+                "response": {
+                    "command_time": 1534360914769, 
+                    "id": 14991186221714076000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "clientservices.googleapis.com", 
+                            "include_certificates": true, 
+                            "rank": 29, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915331, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://clientservices.googleapis.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://clientservices.googleapis.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "ichnaea.netflix.com", 
+                "rank": 4, 
+                "response": {
+                    "command_time": 1534360914773, 
+                    "id": 2381554076211685400, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "ichnaea.netflix.com", 
+                            "include_certificates": true, 
+                            "rank": 4, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360914831, 
+                    "result": {
+                        "info": {
+                            "error_class": 2, 
+                            "original_uri": "https://ichnaea.netflix.com/", 
+                            "security_info_status": true, 
+                            "security_state": 4, 
+                            "ssl_status_status": false, 
+                            "status": 2153398259, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://ichnaea.netflix.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": false
+            }, 
+            {
+                "host": "www.google-analytics.com", 
+                "rank": 20, 
+                "response": {
+                    "command_time": 1534360914767, 
+                    "id": 11610029054079164000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "www.google-analytics.com", 
+                            "include_certificates": true, 
+                            "rank": 20, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915634, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://www.google-analytics.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://www.google-analytics.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "fbcdn.net", 
+                "rank": 21, 
+                "response": {
+                    "command_time": 1534360914762, 
+                    "id": 9348348852308253000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "fbcdn.net", 
+                            "include_certificates": true, 
+                            "rank": 21, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915535, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://fbcdn.net/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://fbcdn.net/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "hola.org", 
+                "rank": 32, 
+                "response": {
+                    "command_time": 1534360914777, 
+                    "id": 16793768807558783000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "hola.org", 
+                            "include_certificates": true, 
+                            "rank": 32, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360916034, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://hola.org/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://hola.org/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "clients4.google.com", 
+                "rank": 13, 
+                "response": {
+                    "command_time": 1534360914771, 
+                    "id": 7335462030507715000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "clients4.google.com", 
+                            "include_certificates": true, 
+                            "rank": 13, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915934, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://clients4.google.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://clients4.google.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "update.googleapis.com", 
+                "rank": 42, 
+                "response": {
+                    "command_time": 1534360914780, 
+                    "id": 6273876876675402000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "update.googleapis.com", 
+                            "include_certificates": true, 
+                            "rank": 42, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915535, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://update.googleapis.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://update.googleapis.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "live.com", 
+                "rank": 22, 
+                "response": {
+                    "command_time": 1534360914779, 
+                    "id": 18438734131834663000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "live.com", 
+                            "include_certificates": true, 
+                            "rank": 22, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915231, 
+                    "result": {
+                        "info": {
+                            "error_class": 2, 
+                            "original_uri": "https://live.com/", 
+                            "security_info_status": true, 
+                            "security_state": 4, 
+                            "ssl_status_status": false, 
+                            "status": 2153394164, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://live.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": false
+            }, 
+            {
+                "host": "api-global.netflix.com", 
+                "rank": 2, 
+                "response": {
+                    "command_time": 1534360914787, 
+                    "id": 265320408629467140, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "api-global.netflix.com", 
+                            "include_certificates": true, 
+                            "rank": 2, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915833, 
+                    "result": {
+                        "info": {
+                            "error_class": 2, 
+                            "original_uri": "https://api-global.netflix.com/", 
+                            "security_info_status": true, 
+                            "security_state": 4, 
+                            "ssl_status_status": false, 
+                            "status": 2153398259, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://api-global.netflix.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": false
+            }, 
+            {
+                "host": "googleadservices.com", 
+                "rank": 19, 
+                "response": {
+                    "command_time": 1534360914762, 
+                    "id": 5152554402047375000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "googleadservices.com", 
+                            "include_certificates": true, 
+                            "rank": 19, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915933, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://googleadservices.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://googleadservices.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "yahoo.com", 
+                "rank": 49, 
+                "response": {
+                    "command_time": 1534360914783, 
+                    "id": 15506786419807928000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "yahoo.com", 
+                            "include_certificates": true, 
+                            "rank": 49, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915941, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://yahoo.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://yahoo.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "bing.com", 
+                "rank": 43, 
+                "response": {
+                    "command_time": 1534360914784, 
+                    "id": 16347929250168121000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "bing.com", 
+                            "include_certificates": true, 
+                            "rank": 43, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915634, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://bing.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://bing.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "google-analytics.com", 
+                "rank": 11, 
+                "response": {
+                    "command_time": 1534360914764, 
+                    "id": 9711170610900951000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "google-analytics.com", 
+                            "include_certificates": true, 
+                            "rank": 11, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915940, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://google-analytics.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://google-analytics.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "i.ytimg.com", 
+                "rank": 46, 
+                "response": {
+                    "command_time": 1534360914728, 
+                    "id": 15093920637504730000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "i.ytimg.com", 
+                            "include_certificates": true, 
+                            "rank": 46, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915232, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://i.ytimg.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://i.ytimg.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "adservice.google.com", 
+                "rank": 41, 
+                "response": {
+                    "command_time": 1534360914778, 
+                    "id": 1603396850535528400, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "adservice.google.com", 
+                            "include_certificates": true, 
+                            "rank": 41, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915332, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://adservice.google.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://adservice.google.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "microsoft.com", 
+                "rank": 6, 
+                "response": {
+                    "command_time": 1534360914765, 
+                    "id": 7020990844070930000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "microsoft.com", 
+                            "include_certificates": true, 
+                            "rank": 6, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360916036, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://microsoft.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://microsoft.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "google.com", 
+                "rank": 3, 
+                "response": {
+                    "command_time": 1534360914776, 
+                    "id": 12048306508921006000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "google.com", 
+                            "include_certificates": true, 
+                            "rank": 3, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915234, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://google.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://google.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "www.googleadservices.com", 
+                "rank": 24, 
+                "response": {
+                    "command_time": 1534360914779, 
+                    "id": 15522830827326233000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "www.googleadservices.com", 
+                            "include_certificates": true, 
+                            "rank": 24, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360916133, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://www.googleadservices.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://www.googleadservices.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "pagead2.googlesyndication.com", 
+                "rank": 37, 
+                "response": {
+                    "command_time": 1534360914788, 
+                    "id": 12985843239231425000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "pagead2.googlesyndication.com", 
+                            "include_certificates": true, 
+                            "rank": 37, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915934, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://pagead2.googlesyndication.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://pagead2.googlesyndication.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "netflix.com", 
+                "rank": 1, 
+                "response": {
+                    "command_time": 1534360914782, 
+                    "id": 18296433212289591000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "netflix.com", 
+                            "include_certificates": true, 
+                            "rank": 1, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915732, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://netflix.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://netflix.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "safebrowsing.googleapis.com", 
+                "rank": 12, 
+                "response": {
+                    "command_time": 1534360914775, 
+                    "id": 15728237320938467000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "safebrowsing.googleapis.com", 
+                            "include_certificates": true, 
+                            "rank": 12, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915936, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://safebrowsing.googleapis.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://safebrowsing.googleapis.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "facebook.com", 
+                "rank": 7, 
+                "response": {
+                    "command_time": 1534360914785, 
+                    "id": 11700782196484704000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "facebook.com", 
+                            "include_certificates": true, 
+                            "rank": 7, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915941, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://facebook.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://facebook.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "play.google.com", 
+                "rank": 51, 
+                "response": {
+                    "command_time": 1534360914771, 
+                    "id": 11043091231778638000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "play.google.com", 
+                            "include_certificates": true, 
+                            "rank": 51, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915234, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://play.google.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://play.google.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "customerevents.netflix.com", 
+                "rank": 55, 
+                "response": {
+                    "command_time": 1534360914773, 
+                    "id": 4349316100422189000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "customerevents.netflix.com", 
+                            "include_certificates": true, 
+                            "rank": 55, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915331, 
+                    "result": {
+                        "info": {
+                            "error_class": 2, 
+                            "original_uri": "https://customerevents.netflix.com/", 
+                            "security_info_status": true, 
+                            "security_state": 4, 
+                            "ssl_status_status": false, 
+                            "status": 2153398259, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://customerevents.netflix.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": false
+            }, 
+            {
+                "host": "secure.netflix.com", 
+                "rank": 30, 
+                "response": {
+                    "command_time": 1534360914772, 
+                    "id": 16807585576294971000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "secure.netflix.com", 
+                            "include_certificates": true, 
+                            "rank": 30, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915532, 
+                    "result": {
+                        "info": {
+                            "error_class": 2, 
+                            "original_uri": "https://secure.netflix.com/", 
+                            "security_info_status": true, 
+                            "security_state": 4, 
+                            "ssl_status_status": false, 
+                            "status": 2153398259, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://secure.netflix.com/"
+                        }, 
+                        "origin": "error_handler"
+                    }, 
+                    "success": false, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": false
+            }, 
+            {
+                "host": "googleads.g.doubleclick.net", 
+                "rank": 10, 
+                "response": {
+                    "command_time": 1534360914778, 
+                    "id": 10373946292945523000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "googleads.g.doubleclick.net", 
+                            "include_certificates": true, 
+                            "rank": 10, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915632, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://googleads.g.doubleclick.net/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://googleads.g.doubleclick.net/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }, 
+            {
+                "host": "www.googleapis.com", 
+                "rank": 14, 
+                "response": {
+                    "command_time": 1534360914786, 
+                    "id": 15258715647569623000, 
+                    "original_cmd": {
+                        "args": {
+                            "host": "www.googleapis.com", 
+                            "include_certificates": true, 
+                            "rank": 14, 
+                            "timeout": 10
+                        }, 
+                        "id": null, 
+                        "mode": "scan"
+                    }, 
+                    "response_time": 1534360915937, 
+                    "result": {
+                        "info": {
+                            "error_class": null, 
+                            "original_uri": "https://www.googleapis.com/", 
+                            "security_info_status": true, 
+                            "security_state": 524290, 
+                            "ssl_status_status": false, 
+                            "status": 0, 
+                            "transport_security_info_status": true, 
+                            "uri": "https://www.googleapis.com/"
+                        }, 
+                        "origin": "load_handler"
+                    }, 
+                    "success": true, 
+                    "worker_id": 4983602891522054000
+                }, 
+                "success": true
+            }
+        ], 
+        "meta": {
+            "args": {
+                "base": "release", 
+                "cache": false, 
+                "debug": false, 
+                "filter": 1, 
+                "limit": 40, 
+                "max_timeout": 20, 
+                "mode": "scan", 
+                "onecrl": "production", 
+                "onecrlpin": "stable", 
+                "parallel": 4, 
+                "prefs": null, 
+                "prefs_base": null, 
+                "prefs_test": [
+                    "security.pki.distrust_ca_policy;2"
+                ], 
+                "remove_certs": false, 
+                "requestsperworker": 50, 
+                "scans": 3, 
+                "source": "top", 
+                "test": "nightly", 
+                "timeout": 10, 
+                "workdir": "/home/ubuntu/.tlscanary"
+            }, 
+            "argv": [
+                "/home/ubuntu/tls-canary/bin/tlscanary", 
+                "scan", 
+                "-x", 
+                "3", 
+                "-p1", 
+                "security.pki.distrust_ca_policy;2", 
+                "-l", 
+                "40"
+            ], 
+            "format_revision": 2, 
+            "log_lines": 40, 
+            "mode": "scan", 
+            "profiles": [
+                {
+                    "log_part": "test_profile.zip", 
+                    "name": "test_profile"
+                }
+            ], 
+            "run_completed": true, 
+            "run_finish_time": "2018-08-15T19:21:57.542407", 
+            "run_start_time": "2018-08-15T19:21:54.666357", 
+            "sources_size": 40, 
+            "test_metadata": {
+                "appConstants": {
+                    "ACCESSIBILITY": true, 
+                    "ANDROID_PACKAGE_NAME": "org.mozilla.firefox", 
+                    "ASAN": false, 
+                    "BROWSER_CHROME_URL": "chrome://browser/content/browser.xul", 
+                    "DEBUG": false, 
+                    "DEBUG_JS_MODULES": "", 
+                    "DLL_PREFIX": "lib", 
+                    "DLL_SUFFIX": ".so", 
+                    "EARLY_BETA_OR_EARLIER": true, 
+                    "HAVE_SHELL_SERVICE": true, 
+                    "HAVE_USR_LIB64_DIR": false, 
+                    "INSTALL_LOCALE": "en-US", 
+                    "MENUBAR_CAN_AUTOHIDE": true, 
+                    "MOZILLA_OFFICIAL": true, 
+                    "MOZ_ALLOW_LEGACY_EXTENSIONS": true, 
+                    "MOZ_ANDROID_ACTIVITY_STREAM": false, 
+                    "MOZ_ANDROID_HISTORY": false, 
+                    "MOZ_ANDROID_MOZILLA_ONLINE": false, 
+                    "MOZ_APP_NAME": "firefox", 
+                    "MOZ_APP_VERSION": "63.0a1", 
+                    "MOZ_APP_VERSION_DISPLAY": "63.0a1", 
+                    "MOZ_BING_API_CLIENTID": "no-bing-api-clientid", 
+                    "MOZ_BING_API_KEY": "no-bing-api-key", 
+                    "MOZ_BUILD_APP": "browser", 
+                    "MOZ_CODE_COVERAGE": false, 
+                    "MOZ_CONTENT_SANDBOX": true, 
+                    "MOZ_CRASHREPORTER": true, 
+                    "MOZ_DATA_REPORTING": true, 
+                    "MOZ_DEV_EDITION": false, 
+                    "MOZ_GECKO_PROFILER": true, 
+                    "MOZ_GOOGLE_API_KEY": "AIzaSyD_Drzahe4dBzGCZ9ArvowCvrPx_yFrlCM", 
+                    "MOZ_GRAPHENE": false, 
+                    "MOZ_MACBUNDLE_NAME": "Firefox Nightly.app", 
+                    "MOZ_MAINTENANCE_SERVICE": false, 
+                    "MOZ_MOZILLA_API_KEY": "7e40f68c-7938-4c5d-9f95-e61647c213eb", 
+                    "MOZ_OFFICIAL_BRANDING": false, 
+                    "MOZ_PLACES": true, 
+                    "MOZ_REQUIRE_SIGNING": false, 
+                    "MOZ_SANDBOX": true, 
+                    "MOZ_SERVICES_HEALTHREPORT": true, 
+                    "MOZ_SWITCHBOARD": false, 
+                    "MOZ_SYSTEM_NSS": false, 
+                    "MOZ_TELEMETRY_ON_BY_DEFAULT": true, 
+                    "MOZ_TELEMETRY_REPORTING": true, 
+                    "MOZ_TOOLKIT_SEARCH": true, 
+                    "MOZ_UNSIGNED_SCOPES": 0, 
+                    "MOZ_UPDATER": true, 
+                    "MOZ_UPDATE_CHANNEL": "nightly", 
+                    "MOZ_WEBRTC": true, 
+                    "MOZ_WIDGET_GTK": true, 
+                    "MOZ_WIDGET_TOOLKIT": "gtk3", 
+                    "NIGHTLY_BUILD": true, 
+                    "RELEASE_OR_BETA": false, 
+                    "SOURCE_REVISION_URL": "https://hg.mozilla.org/mozilla-central/rev/4494389e577e6529815d43de71268b8837bd79c6", 
+                    "XP_UNIX": true, 
+                    "platform": "linux"
+                }, 
+                "app_version": "63.0a1", 
+                "application_ini": {
+                    "buildid": "20180815100249", 
+                    "codename": "Firefox Nightly", 
+                    "id": "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}", 
+                    "name": "Firefox", 
+                    "remotingname": "firefox", 
+                    "sourcerepository": "https://hg.mozilla.org/mozilla-central", 
+                    "sourcestamp": "4494389e577e6529815d43de71268b8837bd79c6", 
+                    "vendor": "Mozilla", 
+                    "version": "63.0a1"
+                }, 
+                "branch": "nightly", 
+                "nspr_version": "NSPR 4.20 Beta", 
+                "nssInfo": {
+                    "NSPR_MinVersion": "4.20 Beta", 
+                    "NSPR_Version": "4.20 Beta", 
+                    "NSSSMIME_MinVersion": "3.39 Beta", 
+                    "NSSSMIME_Version": "3.39 Beta", 
+                    "NSSSSL_MinVersion": "3.39 Beta", 
+                    "NSSSSL_Version": "3.39 Beta", 
+                    "NSSUTIL_MinVersion": "3.39 Beta", 
+                    "NSSUTIL_Version": "3.39 Beta", 
+                    "NSS_MinVersion": "3.39 Beta", 
+                    "NSS_Version": "3.39 Beta"
+                }, 
+                "nss_version": "NSS 3.39 Beta", 
+                "package_origin": "https://download.mozilla.org/?product=firefox-nightly-latest&os=linux64&lang=en-US", 
+                "platform": "linux"
+            }, 
+            "tlscanary_version": "3.2.0"
+        }
+    }
+]
