@@ -42,7 +42,7 @@ master_hosts = []
 for host in indexed_hosts:
 	try:
 	    master_hosts.append(indexed_master[host])
-	catch:
+	except:
 	    pass
 
 # Print out the current error hosts
