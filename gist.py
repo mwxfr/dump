@@ -40,7 +40,10 @@ with open('prev_master_hosts.txt', 'r') as f:
 # from this run.
 master_hosts = []
 for host in indexed_hosts:
-    master_hosts.append(indexed_master[host])
+	try:
+	    master_hosts.append(indexed_master[host])
+	catch:
+	    pass
 
 # Print out the current error hosts
 all_hosts = open('ranked_hosts.txt', 'w')
