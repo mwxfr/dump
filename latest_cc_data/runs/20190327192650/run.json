@@ -1,0 +1,128 @@
+{
+ "meta": {
+  "args": "/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/bin/iris notepad -n",
+  "config": "osx, 64-bit, x86_64",
+  "end_time": 1553714820,
+  "errors": 1,
+  "failed": 0,
+  "iris_branch": "matt_port",
+  "iris_branch_head": "ddaea73fb3018d492e3e3387206b88fdcde2f335",
+  "iris_repo": "/Users/mwobensmith/PycharmProjects/iris2",
+  "iris_version": 2.0,
+  "log": "/Users/mwobensmith/.iris2/runs/20190327192650/iris_log.log",
+  "params": {
+   "application": "notepad",
+   "clear": false,
+   "control": false,
+   "email": false,
+   "exclude": null,
+   "highlight": false,
+   "image_debug": false,
+   "level": 20,
+   "mouse": 0.5,
+   "no_check": true,
+   "override": false,
+   "port": 2000,
+   "report": false,
+   "rerun": false,
+   "resize": false,
+   "save": false,
+   "test_path": null,
+   "workdir": "/Users/mwobensmith/.iris2"
+  },
+  "passed": 1,
+  "run_id": "20190327192650",
+  "skipped": 0,
+  "start_time": 1553714820,
+  "total": 2,
+  "total_time": 0,
+  "values": {}
+ },
+ "tests": {
+  "all_tests": [
+   {
+    "children": [
+     {
+      "children": [
+       {
+        "assert": {
+         "actual": null,
+         "call_stack": "Traceback (most recent call last):\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/_pytest/runner.py':226 in from_call\n  result = func()\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/_pytest/runner.py':198 in <lambda>\n  return CallInfo.from_call(\n        lambda: ihook(item=item, **kwds), when=when, reraise=reraise\n    )\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/hooks.py':289 in __call__\n  return self._hookexec(self, self.get_hookimpls(), kwargs)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/manager.py':68 in _hookexec\n  return self._inner_hookexec(hook, methods, kwargs)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/manager.py':62 in <lambda>\n  self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n            methods,\n            kwargs,\n            firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n        )\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/callers.py':208 in _multicall\n  return outcome.get_result()\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/callers.py':80 in get_result\n  raise ex[1].with_traceback(ex[2])\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/callers.py':187 in _multicall\n  res = hook_impl.function(*args)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/_pytest/runner.py':123 in pytest_runtest_call\n  item.runtest()\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/_pytest/python.py':1455 in runtest\n  self.ihook.pytest_pyfunc_call(pyfuncitem=self)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/hooks.py':289 in __call__\n  return self._hookexec(self, self.get_hookimpls(), kwargs)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/manager.py':68 in _hookexec\n  return self._inner_hookexec(hook, methods, kwargs)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/manager.py':62 in <lambda>\n  self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n            methods,\n            kwargs,\n            firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n        )\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/callers.py':208 in _multicall\n  return outcome.get_result()\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/callers.py':80 in get_result\n  raise ex[1].with_traceback(ex[2])\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/callers.py':187 in _multicall\n  res = hook_impl.function(*args)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/_pytest/python.py':166 in pytest_pyfunc_call\n  testfunction(**testargs)\n\n    File '/Users/mwobensmith/PycharmProjects/iris2/tests/notepad/section1/section1_1/test_notepad1_1.py':17 in test_run\n  find(Pattern('test.png'), Rectangle(0, 0, 100, 100))\n\n    File '/Users/mwobensmith/PycharmProjects/iris2/src/core/api/finder/finder.py':77 in find\n  raise FindError('Unable to find image %s' % ps.get_filename())\n\n  src.core.api.errors.FindError: Unable to find image test.png",
+         "code": "68:     :return: Location object.\n69:     \"\"\"\n70:     if isinstance(ps, Pattern):\n71:         image_found = match_template(ps, region, MatchTemplateType.SINGLE)\n72:         if len(image_found) > 0:\n73:             if parse_args().highlight:\n74:                 highlight(region=region, ps=ps, location=image_found)\n75:             return image_found[0]\n76:         else:\n77:             raise FindError('Unable to find image %s' % ps.get_filename())\n",
+         "error": "src.core.api.errors.FindError",
+         "expected": null,
+         "message": "Unable to find image test.png"
+        },
+        "debug_image_directory": "/Users/mwobensmith/.iris2/runs/20190327192650/section1/section1_1/test_notepad1_1/debug_images",
+        "debug_images": [
+         "2019_03_27_12_27_00_406887_not_found.jpg"
+        ],
+        "description": "This test is just an experiment for Notepad",
+        "name": "test_notepad1_1",
+        "result": "ERROR",
+        "time": 0.12699508666992188,
+        "values": {
+         "blocked_by": "232111",
+         "meta": "Notepad Test experiment"
+        }
+       }
+      ],
+      "name": "section1_1"
+     }
+    ],
+    "name": "section1"
+   },
+   {
+    "children": [
+     {
+      "debug_image_directory": "/Users/mwobensmith/.iris2/runs/20190327192650/section2/test_notepad2/debug_images",
+      "debug_images": [],
+      "description": "This test is just an experiment for Notepad",
+      "name": "test_notepad2",
+      "result": "PASSED",
+      "time": 8.893013000488281e-05,
+      "values": {
+       "blocked_by": "",
+       "meta": "Notepad Test experiment2"
+      }
+     }
+    ],
+    "name": "section2"
+   }
+  ],
+  "failed_tests": [
+   {
+    "children": [
+     {
+      "children": [
+       {
+        "assert": {
+         "actual": null,
+         "call_stack": "Traceback (most recent call last):\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/_pytest/runner.py':226 in from_call\n  result = func()\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/_pytest/runner.py':198 in <lambda>\n  return CallInfo.from_call(\n        lambda: ihook(item=item, **kwds), when=when, reraise=reraise\n    )\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/hooks.py':289 in __call__\n  return self._hookexec(self, self.get_hookimpls(), kwargs)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/manager.py':68 in _hookexec\n  return self._inner_hookexec(hook, methods, kwargs)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/manager.py':62 in <lambda>\n  self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n            methods,\n            kwargs,\n            firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n        )\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/callers.py':208 in _multicall\n  return outcome.get_result()\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/callers.py':80 in get_result\n  raise ex[1].with_traceback(ex[2])\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/callers.py':187 in _multicall\n  res = hook_impl.function(*args)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/_pytest/runner.py':123 in pytest_runtest_call\n  item.runtest()\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/_pytest/python.py':1455 in runtest\n  self.ihook.pytest_pyfunc_call(pyfuncitem=self)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/hooks.py':289 in __call__\n  return self._hookexec(self, self.get_hookimpls(), kwargs)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/manager.py':68 in _hookexec\n  return self._inner_hookexec(hook, methods, kwargs)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/manager.py':62 in <lambda>\n  self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n            methods,\n            kwargs,\n            firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n        )\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/callers.py':208 in _multicall\n  return outcome.get_result()\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/callers.py':80 in get_result\n  raise ex[1].with_traceback(ex[2])\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/pluggy/callers.py':187 in _multicall\n  res = hook_impl.function(*args)\n\n    File '/Users/mwobensmith/.local/share/virtualenvs/iris2-Fh8pD0FE/lib/python3.7/site-packages/_pytest/python.py':166 in pytest_pyfunc_call\n  testfunction(**testargs)\n\n    File '/Users/mwobensmith/PycharmProjects/iris2/tests/notepad/section1/section1_1/test_notepad1_1.py':17 in test_run\n  find(Pattern('test.png'), Rectangle(0, 0, 100, 100))\n\n    File '/Users/mwobensmith/PycharmProjects/iris2/src/core/api/finder/finder.py':77 in find\n  raise FindError('Unable to find image %s' % ps.get_filename())\n\n  src.core.api.errors.FindError: Unable to find image test.png",
+         "code": "68:     :return: Location object.\n69:     \"\"\"\n70:     if isinstance(ps, Pattern):\n71:         image_found = match_template(ps, region, MatchTemplateType.SINGLE)\n72:         if len(image_found) > 0:\n73:             if parse_args().highlight:\n74:                 highlight(region=region, ps=ps, location=image_found)\n75:             return image_found[0]\n76:         else:\n77:             raise FindError('Unable to find image %s' % ps.get_filename())\n",
+         "error": "src.core.api.errors.FindError",
+         "expected": null,
+         "message": "Unable to find image test.png"
+        },
+        "debug_image_directory": "/Users/mwobensmith/.iris2/runs/20190327192650/section1/section1_1/test_notepad1_1/debug_images",
+        "debug_images": [
+         "2019_03_27_12_27_00_406887_not_found.jpg"
+        ],
+        "description": "This test is just an experiment for Notepad",
+        "name": "test_notepad1_1",
+        "result": "ERROR",
+        "time": 0.12699508666992188,
+        "values": {
+         "blocked_by": "232111",
+         "meta": "Notepad Test experiment"
+        }
+       }
+      ],
+      "name": "section1_1"
+     }
+    ],
+    "name": "section1"
+   }
+  ]
+ }
+}

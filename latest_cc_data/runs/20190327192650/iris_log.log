@@ -1,0 +1,20 @@
+2019-03-27 12:26:50,928 [INFO] [src.__main__] Desired target: notepad
+2019-03-27 12:27:00,146 [INFO] [src.__main__] Found target named Notepad
+2019-03-27 12:27:00,147 [INFO] [src.__main__] ['/Users/mwobensmith/PycharmProjects/iris2/tests/notepad', '-vs', '-r ', '-s', '-p', 'no:terminal']
+2019-03-27 12:27:00,223 [INFO] [src.base.target] ** Test session iris2 started **
+2019-03-27 12:27:00,223 [INFO] [src.base.target] Iris settings:
+2019-03-27 12:27:00,223 [INFO] [src.base.target] application: notepad, test_path: None, rerun: False, highlight: False, clear: False, directory: /Users/mwobensmith/iris/tests, email: False, firefox: latest-beta, image_debug: False, level: 20, headless_run: False, control: False, locale: en-US, mouse: 0.5, no_check: True, override: False, port: 2000, report: False, save: False, workdir: /Users/mwobensmith/.iris, exclude: None, resize: False
+2019-03-27 12:27:00,223 [INFO] [src.base.target] 
+
+2019-03-27 12:27:00,573 [INFO] [src.configuration.config_parser] 
+------------------------------------------------------------------------------------------------------------------------
+Application: Notepad,Platform: osx
+Passed: 1, Failed: 0, Skipped: 0, Errors 1   -- Total: 2                       Total time: 0.12708401679992676 second(s)
+
+The following tests did not pass:
+/Users/mwobensmith/PycharmProjects/iris2/tests/notepad/section1/section1_1/test_notepad1_1.py
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+2019-03-27 12:27:00,585 [INFO] [src.base.target] ** Test session iris2 complete **

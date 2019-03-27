@@ -1,0 +1,18 @@
+{
+ "runs": [
+  {
+   "duration": 0.12708401679992676,
+   "failed": 1,
+   "id": "20190327192650",
+   "target": "notepad",
+   "total": 2
+  },
+  {
+   "duration": 166.2734124660492,
+   "failed": 13,
+   "id": "20190327192708",
+   "target": "firefox",
+   "total": 18
+  }
+ ]
+}
