@@ -1,0 +1,20 @@
+
+with_content_shell: true
+
+# Job sections
+jobs:
+  include:
+    - stage: Test
+      before_script: skip
+      install: echo 'this is a test'
+      script: echo 123
+
+
+# Email notification
+notifications:
+  email:
+    recipients:
+      - mwobensmith@mozilla.com
+    on_success: change
+    on_failure: always
+    on_cancel: always
